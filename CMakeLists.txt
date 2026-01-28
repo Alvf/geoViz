@@ -34,6 +34,8 @@ set( IMGUI_SOURCES
 		 ext/imgui-master/backends/imgui_impl_opengl2.cpp
 )
 
+add_library(IMGUI SHARED ${IMGUI_SOURCES})
+
 set( GLFW_BUILD_DOCS OFF CACHE BOOL  "GLFW lib only" )
 set( GLFW_INSTALL OFF CACHE BOOL  "GLFW lib only" )
 set( GLAD_GL "")
