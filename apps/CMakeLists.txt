@@ -1,0 +1,2 @@
+add_executable(helloWorld helloWorld.cpp)
+target_link_libraries(helloWorld GLDRAWER ${OPENGL_LIBRARIES} glfw)
